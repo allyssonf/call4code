@@ -1,0 +1,11 @@
+
+$feature-flags: (
+  ui-shell: true,
+  // grid-columns-16: true,
+);
+
+@import "@carbon/themes/scss/themes";
+@import 'carbon-components/scss/globals/grid/grid';
+$carbon--theme: $carbon--theme--g90;
+// import Carbon styles here
+@import '~carbon-components/scss/globals/scss/styles.scss';
