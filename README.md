@@ -14,6 +14,14 @@ This application integrates 3 IBM Watson services:
 
 You need to create such services on your [IBM Cloud](cloud.ibm.com) account.
 
+`skill` folder has a sample of a Pizza bot with the following features:
+
+* Slot
+* Slot Handlers
+* Webhook call
+
+You can import this skill into your Watson Assistant service instance and create an Assistant based on this skill.
+
 For Watson Assistant you'll need to create a Skill to connect to the application.
 
 Access _**watsonassistant**_ folder.
